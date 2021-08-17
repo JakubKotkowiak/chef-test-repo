@@ -7,6 +7,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - id: foo
-        uses: zelaskov/chef-test-repo@v1
-      - run: ./install.sh
-        shell: bash
+        uses: zelaskov/chef-test-repo@main
+        with:
+          version: "21.2.278"
