@@ -1,7 +1,7 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  install_chef_job:
     runs-on: ubuntu-latest
     name: Chef workstation installation
     steps:
