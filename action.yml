@@ -1,5 +1,5 @@
-name: 'Hello World'
-description: 'Greet someone'
+name: 'Install chef'
+description: 'Install chef workstation'
 # inputs:
 #   who-to-greet:  # id of input
 #     description: 'Who to greet'
