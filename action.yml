@@ -1,12 +1,12 @@
 name: 'Install chef'
 description: 'Install chef workstation'
-# inputs:
-#   who-to-greet:  # id of input
-#     description: 'Who to greet'
-#     required: true
-#     default: 'World'
+inputs:
+  version:
+    description: 'chef version'
+    required: false
+    default: '21.7.524'
 runs:
   using: "composite"
   steps:
-    - run: ${{ github.action_path }}/goodbye.sh
+    - run: ${{ github.action_path }}/goodbye.sh {{ inputs.version }}
       shell: bash

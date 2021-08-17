@@ -9,4 +9,4 @@ jobs:
       - id: foo
         uses: zelaskov/chef-test-repo@v1
       - run: ./install.sh
-        shell: bash        
+        shell: bash
