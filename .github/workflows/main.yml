@@ -8,5 +8,5 @@ jobs:
       - uses: actions/checkout@v2
       - id: foo
         uses: zelaskov/chef-test-repo@main
-        # with:
-        #   version: "21.2.278"
+        with:
+          version: "21.2.278"
